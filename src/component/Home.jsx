@@ -29,6 +29,7 @@ import Cat3 from '../images/catImg3-29ebb534.svg'
 import Cat4 from '../images/catImg4-3d3e19ed.svg'
 import Cat5 from '../images/catImg5-7b454d53.svg'
 import Cat6 from '../images/catImg6-44517fe2.svg'
+import Cat7 from '../images/carouselImg2-f8c43f71.svg'
 
 export default function Home() {
   let links = [
@@ -44,7 +45,7 @@ export default function Home() {
         <div className='md:px-10 py-4 px-7 md:flex justify-between items-center'>
            <img src={Logo} alt="" className='mx-36' />
 
-           <nav>
+           <nav className='sticky top-0 py-2 z-50'> 
               <ul className='md:flex pl-9 md:pl-0 '>
                 {links.map(link =>
                 <li className='font-semibold my-7 md:my-0 md:ml-8 '>
@@ -247,11 +248,9 @@ export default function Home() {
 
                           <span className='flex items-center justify-between mt-2'>
 
-                            <button className='bg-[#1E5DCE33] text-[#1E5DCE] capitalize font-bold lg:text-xs text-[4px] lg:px-3 px-2 py-1 rounded-full'>Design
+                            <button className='bg-[#1E5DCE33] text-[#1E5DCE] capitalize font-bold lg:text-xs text-[4px] lg:px-3 px-2 py-1 rounded-full'>Design</button>
 
                             <p className='font-bold text-[#A1A1A1] lg:text-xs text-[4px] flex items-center'>4.7k   (32.7k)</p>
-                            
-                            </button>
 
                           </span>
 
@@ -267,7 +266,7 @@ export default function Home() {
 
                             <span className='class="flex items-center gap-1"'>
 
-                              <img src="" alt="" className='class="lg:w-auto w-[20%]' />
+                              <img src={Cat7} alt="" className='class="lg:w-auto w-[20%]' />
 
                               <p className='text-black font-bold  lg:text-base text-[6px]'>Leonard Victor</p>
 
@@ -283,11 +282,9 @@ export default function Home() {
 
                           <span className='flex items-center justify-between mt-2'>
 
-                            <button className='bg-[#1E5DCE33] text-[#1E5DCE] capitalize font-bold lg:text-xs text-[4px] lg:px-3 px-2 py-1 rounded-full'>Design
+                            <button className='bg-[#1E5DCE33] text-[#1E5DCE] capitalize font-bold lg:text-xs text-[4px] lg:px-3 px-2 py-1 rounded-full'>Design</button>
 
                             <p className='font-bold text-[#A1A1A1] lg:text-xs text-[4px] flex items-center'>4.7k   (32.7k)</p>
-                            
-                            </button>
 
                           </span>
 
@@ -303,7 +300,7 @@ export default function Home() {
 
                             <span className='class="flex items-center gap-1"'>
 
-                              <img src="" alt="" className='class="lg:w-auto w-[20%]' />
+                              <img src={Cat7} alt="" className='class="lg:w-auto w-[20%]' />
 
                               <p className='text-black font-bold  lg:text-base text-[6px]'>Leonard Victor</p>
 
@@ -319,11 +316,9 @@ export default function Home() {
 
                           <span className='flex items-center justify-between mt-2'>
 
-                            <button className='bg-[#1E5DCE33] text-[#1E5DCE] capitalize font-bold lg:text-xs text-[4px] lg:px-3 px-2 py-1 rounded-full'>Design
+                            <button className='bg-[#1E5DCE33] text-[#1E5DCE] capitalize font-bold lg:text-xs text-[4px] lg:px-3 px-2 py-1 rounded-full'>Design</button>
 
                             <p className='font-bold text-[#A1A1A1] lg:text-xs text-[4px] flex items-center'>4.7k   (32.7k)</p>
-                            
-                            </button>
 
                           </span>
 
@@ -339,7 +334,7 @@ export default function Home() {
 
                             <span className='class="flex items-center gap-1"'>
 
-                              <img src="" alt="" className='class="lg:w-auto w-[20%]' />
+                              <img src={Cat7} alt="" className='class="lg:w-auto w-[20%]' />
 
                               <p className='text-black font-bold  lg:text-base text-[6px]'>Leonard Victor</p>
 
@@ -355,12 +350,9 @@ export default function Home() {
 
                           <span className='flex items-center justify-between mt-2'>
 
-                            <button className='bg-[#1E5DCE33] text-[#1E5DCE] capitalize font-bold lg:text-xs text-[4px] lg:px-3 px-2 py-1 rounded-full'>Design
+                            <button className='bg-[#1E5DCE33] text-[#1E5DCE] capitalize font-bold lg:text-xs text-[4px] lg:px-3 px-2 py-1 rounded-full'>Design</button>
 
                             <p className='font-bold text-[#A1A1A1] lg:text-xs text-[4px] flex items-center'>4.7k   (32.7k)</p>
-                            
-                            </button>
-
                           </span>
 
                           <h1 className='capitalize text-[#000F24] font-bold lg:text-2xl text-[8px] my-2'>introduction to user research in ux design</h1>
@@ -375,7 +367,7 @@ export default function Home() {
 
                             <span className='class="flex items-center gap-1"'>
 
-                              <img src="" alt="" className='class="lg:w-auto w-[20%]' />
+                              <img src={Cat7} alt="" className='class="lg:w-auto w-[20%]' />
 
                               <p className='text-black font-bold  lg:text-base text-[6px]'>Leonard Victor</p>
 
@@ -391,11 +383,9 @@ export default function Home() {
 
                           <span className='flex items-center justify-between mt-2'>
 
-                            <button className='bg-[#1E5DCE33] text-[#1E5DCE] capitalize font-bold lg:text-xs text-[4px] lg:px-3 px-2 py-1 rounded-full'>Design
+                            <button className='bg-[#1E5DCE33] text-[#1E5DCE] capitalize font-bold lg:text-xs text-[4px] lg:px-3 px-2 py-1 rounded-full'>Design</button>
 
                             <p className='font-bold text-[#A1A1A1] lg:text-xs text-[4px] flex items-center'>4.7k   (32.7k)</p>
-                            
-                            </button>
 
                           </span>
 
@@ -411,7 +401,7 @@ export default function Home() {
 
                             <span className='class="flex items-center gap-1"'>
 
-                              <img src="" alt="" className='class="lg:w-auto w-[20%]' />
+                              <img src={Cat7} alt="" className='class="lg:w-auto w-[20%]' />
 
                               <p className='text-black font-bold  lg:text-base text-[6px]'>Leonard Victor</p>
 
@@ -427,11 +417,9 @@ export default function Home() {
 
                           <span className='flex items-center justify-between mt-2'>
 
-                            <button className='bg-[#1E5DCE33] text-[#1E5DCE] capitalize font-bold lg:text-xs text-[4px] lg:px-3 px-2 py-1 rounded-full'>Design
+                            <button className='bg-[#1E5DCE33] text-[#1E5DCE] capitalize font-bold lg:text-xs text-[4px] lg:px-3 px-2 py-1 rounded-full'>Design </button>
 
                             <p className='font-bold text-[#A1A1A1] lg:text-xs text-[4px] flex items-center'>4.7k   (32.7k)</p>
-                            
-                            </button>
 
                           </span>
 
@@ -447,7 +435,7 @@ export default function Home() {
 
                             <span className='class="flex items-center gap-1"'>
 
-                              <img src="" alt="" className='class="lg:w-auto w-[20%]' />
+                              <img src={Cat7} alt="" className='class="lg:w-auto w-[20%]' />
 
                               <p className='text-black font-bold  lg:text-base text-[6px]'>Leonard Victor</p>
 
