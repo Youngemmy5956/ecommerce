@@ -30,6 +30,13 @@ import Cat4 from '../images/catImg4-3d3e19ed.svg'
 import Cat5 from '../images/catImg5-7b454d53.svg'
 import Cat6 from '../images/catImg6-44517fe2.svg'
 import Cat7 from '../images/carouselImg2-f8c43f71.svg'
+import Com from '../images/community-2dc5b38e.svg'
+import Add from '../images/add-d5d75fa0.svg'
+import Fb from '../images/facebook-4e592cb2.svg'
+import Tw from '../images/twitter-4de28e62.svg'
+import You from '../images/youtube-069fe375.svg'
+import Inta from '../images/instagram-2f9fd7a8.svg'
+import Dis from '../images/discord-dc6ef389.svg'
 
 export default function Home() {
   let links = [
@@ -445,8 +452,314 @@ export default function Home() {
 
                         </div>
 
+                        <button className='lg:block hidden text-white bg-white capitalize rounded-[4px] ml-72 py-4 mt-10 mb-6 font-bold'>
+                                   explore all courses
+
+                                   
+                        </button>
+
+                        <button className='text-white ml-60  bg-[#004DB3] rounded-[4px] lg:px-8 px-6 lg:py-4 py-3 lg:text-base text-[8px] mt-4 lg:mb-24 mb-12 font-bold capitalize'>explore all courses</button>
+
                       </div>
                        
+                    </section>
+
+                    <section className=' pb-6'>
+
+                      
+                        <div class="flex flex-col items-center capitalize">
+                          
+                          <h1 class="text-[#000F24] font-bold lg:text-[56px] text-2xl lg:leading-[70px] capitalize mb-4">what our clients are saying</h1>
+                          
+                          <p class="text-[#A1A1A1] font-medium lg:text-xs text-[8px] lg:leading-[26px] text-center lg:w-2/5 mb-16">high-defination video is video of higher resolution and quality than standard definition. while there’s no standard meaning for high definition, generally any standard video image</p>
+                        
+                        </div>
+
+                        {/* <div className='react-multi-carousel-list carousel-container dir="ltr"'>
+
+                          <ul className='react-multi-carousel-track '>
+
+                            <li className='react-multi-carousel-item  carousel-item-padding-40-px'>
+
+                              <div className='bg-white px-4 py-6 capitalize rounded-3xl'>
+
+                                <p className='text-[#A1A1A1] lg:text-sm text-[10px] font-medium'>
+                                high-defination video is video of higher resolution and quality than standard definition. high-defination video is video of higher resolution and quality than standard definition. hbuild your future with our quality education. the best and largest all-in-one online tutoring platform in the worldd definition. high-defination video is video of higher resolution and quality than standard definition. build your future with our quality education. the best and largest all-in-one online tutoring platform in the world
+                                </p>
+
+                                <span className='flex items-center gap-1 mt-5'>
+
+                                  <img src="" alt="" />
+
+                                  <span><p className="font-bold lg:text-sm text-[10px] text-black">bella moon</p></span>
+
+                                  <p className="text-[#A1A1A1] lg:text-xs text-[8px]">product designer</p>
+
+                                </span>
+
+                              </div>
+
+                            </li>
+
+                            <li className='react-multi-carousel-item  carousel-item-padding-40-px'>
+
+                              <div className='bg-white px-4 py-6 capitalize rounded-3xl'>
+
+                                <p className='text-[#A1A1A1] lg:text-sm text-[10px] font-medium'>
+                                high-defination video is video of higher resolution and quality than standard definition. high-defination video is video of higher resolution and quality than standard definition. hbuild your future with our quality education. the best and largest all-in-one online tutoring platform in the worldd definition. high-defination video is video of higher resolution and quality than standard definition. build your future with our quality education. the best and largest all-in-one online tutoring platform in the world
+                                </p>
+
+                                <span className='flex items-center gap-1 mt-5'>
+
+                                  <img src="" alt="" />
+
+                                  <span><p className="font-bold lg:text-sm text-[10px] text-black">bella moon</p></span>
+
+                                  <p className="text-[#A1A1A1] lg:text-xs text-[8px]">product designer</p>
+
+                                </span>
+
+                              </div>
+
+                            </li>
+
+                            <li className='react-multi-carousel-item  carousel-item-padding-40-px'>
+
+                              <div className='bg-white px-4 py-6 capitalize rounded-3xl'>
+
+                                <p className='text-[#A1A1A1] lg:text-sm text-[10px] font-medium'>
+                                high-defination video is video of higher resolution and quality than standard definition. high-defination video is video of higher resolution and quality than standard definition. hbuild your future with our quality education. the best and largest all-in-one online tutoring platform in the worldd definition. high-defination video is video of higher resolution and quality than standard definition. build your future with our quality education. the best and largest all-in-one online tutoring platform in the world
+                                </p>
+
+                                <span className='flex items-center gap-1 mt-5'>
+
+                                  <img src="" alt="" />
+
+                                  <span><p className="font-bold lg:text-sm text-[10px] text-black">bella moon</p></span>
+
+                                  <p className="text-[#A1A1A1] lg:text-xs text-[8px]">product designer</p>
+
+                                </span>
+
+                              </div>
+
+                            </li>
+
+                            <li className='react-multi-carousel-item  carousel-item-padding-40-px'>
+
+                              <div className='bg-white px-4 py-6 capitalize rounded-3xl'>
+
+                                <p className='text-[#A1A1A1] lg:text-sm text-[10px] font-medium'>
+                                high-defination video is video of higher resolution and quality than standard definition. high-defination video is video of higher resolution and quality than standard definition. hbuild your future with our quality education. the best and largest all-in-one online tutoring platform in the worldd definition. high-defination video is video of higher resolution and quality than standard definition. build your future with our quality education. the best and largest all-in-one online tutoring platform in the world
+                                </p>
+
+                                <span className='flex items-center gap-1 mt-5'>
+
+                                  <img src="" alt="" />
+
+                                  <span><p className="font-bold lg:text-sm text-[10px] text-black">bella moon</p></span>
+
+                                  <p className="text-[#A1A1A1] lg:text-xs text-[8px]">product designer</p>
+
+                                </span>
+
+                              </div>
+
+                            </li>
+
+                            <li className='react-multi-carousel-item  carousel-item-padding-40-px'>
+
+                              <div className='bg-white px-4 py-6 capitalize rounded-3xl'>
+
+                                <p className='text-[#A1A1A1] lg:text-sm text-[10px] font-medium'>
+                                high-defination video is video of higher resolution and quality than standard definition. high-defination video is video of higher resolution and quality than standard definition. hbuild your future with our quality education. the best and largest all-in-one online tutoring platform in the worldd definition. high-defination video is video of higher resolution and quality than standard definition. build your future with our quality education. the best and largest all-in-one online tutoring platform in the world
+                                </p>
+
+                                <span className='flex items-center gap-1 mt-5'>
+
+                                  <img src="" alt="" />
+
+                                  <span><p className="font-bold lg:text-sm text-[10px] text-black">bella moon</p></span>
+
+                                  <p className="text-[#A1A1A1] lg:text-xs text-[8px]">product designer</p>
+
+                                </span>
+
+                              </div>
+
+                            </li>
+
+
+
+
+
+
+
+                          </ul>
+
+                          
+                        </div> */}
+
+
+                        <section className='bg-[#004DB3]'>
+                          
+                          <div className='container mx-auto px-6 capitalize lg:w-3/4 text-center lg:pt-[88px] pt-8'>
+                            <p className='font-medium text-white lg:text-base text-[8px]'>Join Our Community</p>
+
+                            <h1 className='text-white font-bold lg:text-[56px] text-2xl lg:leading-[68.8px]'>are you ready to connect with the future talent of the tech world
+                            </h1>
+
+                            <p className='text-white font-medium mt-4 lg:text-base text-[8px]'>meet up with other techstars and grow together</p>
+
+                            <img src={Com} alt="" />
+
+
+                            <button className='bg-white text-[#004DB3] rounded-[4px] lg:px-8 px-6 lg:py-4 py-3 lg:text-base text-[8px] mt-4 lg:mb-24 mb-12 font-bold capitalize'>join our community</button>
+                          </div>
+
+                        </section>
+
+
+                        <section>
+
+                        <div className='lg:w-3/4 lg:mt-32 my-12 lg:mb-40 lg:px-6 px-4 container mx-auto'> 
+
+                        <div className='flex flex-col items-center capitalize'>
+
+                      <h1 className='text-[#000F24] font-bold lg:text-[56px] text-2xl lg:leading-[70px] capitalize mb-4 lg:text-left text-center'>frequently asked questions</h1>
+
+                      <p className='text-[#A1A1A1] font-medium lg:text-xs text-[8px] lg:leading-[26px] text-center lg:w-1/2 w-3/4 mb-16'>high-defination video is video of higher resolution and quality than standard definition. while there’s no standard meaning for high definition, generally any standard video image</p>
+                        </div>
+
+                        <article className='border-b border-[#EAEAEA] h-full flex-wrap basis-0 rounded-sm flex mb-6'>
+
+                          <p className='flex justify-between relative font-black text-[#000F24] items-center m-auto lg:h-[100px] h-12 w-full lg:px-6'>
+
+                            <span className='items-center capitalize lg:text-2xl text-[14px]  false'>is there a free trial available?</span> <img className='lg:w-auto w-4' src={Add} alt="" />
+
+                          </p>
+
+                        </article>
+
+                         <article className='border-b border-[#EAEAEA] h-full flex-wrap basis-0 rounded-sm flex mb-6'>
+
+                          <p className='flex justify-between relative font-black text-[#000F24] items-center m-auto lg:h-[100px] h-12 w-full lg:px-6'>
+
+                            <span className='items-center capitalize lg:text-2xl text-[14px]  false'>is there a free trial available?</span> <img className='lg:w-auto w-4' src={Add} alt="" />
+
+                          </p>
+
+                        </article>
+
+                        <article className='border-b border-[#EAEAEA] h-full flex-wrap basis-0 rounded-sm flex mb-6'>
+
+                                   <p className='flex justify-between relative font-black text-[#000F24] items-center m-auto lg:h-[100px] h-12 w-full lg:px-6'>
+
+                                    <span className='items-center capitalize lg:text-2xl text-[14px]  false'>Can I Change My Plan Later?</span> <img className='lg:w-auto w-4' src={Add} alt="" />
+
+                                  </p>
+
+                        </article>
+
+                        <article className='border-b border-[#EAEAEA] h-full flex-wrap basis-0 rounded-sm flex mb-6'>
+
+                                   <p className='flex justify-between relative font-black text-[#000F24] items-center m-auto lg:h-[100px] h-12 w-full lg:px-6'>
+
+                                    <span className='items-center capitalize lg:text-2xl text-[14px]  false'>Are The Courses Lifetime?</span> <img src={Add} alt="" />
+
+                                  </p>
+
+                        </article>
+
+                        <article className='border-b border-[#EAEAEA] h-full flex-wrap basis-0 rounded-sm flex mb-6'>
+
+                                   <p className='flex justify-between relative font-black text-[#000F24] items-center m-auto lg:h-[100px] h-12 w-full lg:px-6'>
+
+                                    <span className='items-center capitalize lg:text-2xl text-[14px]  false'>Do I Get Certified After Taking Courses?</span> <img className='lg:w-auto w-4' src={Add} alt="" />
+
+                                  </p>
+
+                        </article>
+
+                        <article className='border-b border-[#EAEAEA] h-full flex-wrap basis-0 rounded-sm flex mb-6'>
+
+                                   <p className='flex justify-between relative font-black text-[#000F24] items-center m-auto lg:h-[100px] h-12 w-full lg:px-6'>
+
+                                    <span className='items-center capitalize lg:text-2xl text-[14px]  false'>How Do I Reach Out To Mentors?</span> <img className='lg:w-auto w-4' src={Add} alt="" />
+
+                                  </p>
+
+                        </article>
+
+                        <article className='border-b border-[#EAEAEA] h-full flex-wrap basis-0 rounded-sm flex mb-6'>
+
+                                   <p className='flex justify-between relative font-black text-[#000F24] items-center m-auto lg:h-[100px] h-12 w-full lg:px-6'>
+
+                                    <span className='items-center capitalize lg:text-2xl text-[14px]  false'>Do We Get Job Ready After Taking Courses?</span> <img className='lg:w-auto w-4' src={Add} alt="" />
+
+                                  </p>
+
+                        </article>
+                        
+                        </div>
+                        
+                        </section>
+
+                        <section className='bg-[#000F24]'>
+                          <div className='container mx-auto px-6 lg:flex items-start justify-between lg:pt-40 pt-16 lg:pb-80 pb-24'>
+                            <div className='lg:w-1/4'>
+                              <img src={Logo} alt="" />
+                              <p className='text-white capitalize lg:w-72 my-6'>reach out to us on any of our social media networks</p>
+
+                              <span className='flex items-center gap-7'>
+                                <img src={Fb} alt="" />
+                                <img src={Tw} alt="" />
+                                <img src={You} alt="" />
+                                <img src={Inta} alt="" />
+                                <img src={Dis} alt="" />
+                              </span>
+
+                            </div>
+
+                            <div className='capitalize text-white lg:w-1/4 lg:mt-0 mt-20'>
+                            <h1 className="font-semibold text-[32px] mb-8 lg:mt-0 mt-20">useful links</h1>
+                              <ul>
+                                <li className='cursor-pointer'>home</li>
+                                <li className='cursor-pointer'>about us</li>
+                                <li className='cursor-pointer'>our courses</li>
+                                <li className='cursor-pointer'>testimonial</li>
+                                <li className='cursor-pointer'>our community</li>
+                              </ul>
+                            </div>
+
+                            <div className='class="capitalize text-white w-1/4"'>
+
+                              <h1 className='font-semibold text-[32px] mb-8 lg:mt-0 mt-10'>community</h1>
+                              <ul>
+                                <li className='cursor-pointer'>help centers</li>
+                                <li className='cursor-pointer'>partners</li>
+                                <li className='cursor-pointer'>suggestion</li>
+                                <li className='cursor-pointer'>blog</li>
+                                <li className='cursor-pointer'>newsletter</li>
+                              </ul>
+
+                            </div>
+
+                            <div className='capitalize text-white lg:w-1/4 lg:mt-0 mt-10'>
+
+                            <h1 className="font-semibold text-[32px] mb-8">subscribe us</h1>
+
+                            <span className="flex items-center"><input type="text" placeholder="nft123@gmail.com" class="h-12 px-4 bg-[#2A2A2B] outline-none lg:w-auto w-[60%]"/>
+
+                            <button class="bg-[#054FB3] text-white text-sm font-medium h-12 whitespace-pre px-4 capitalize">send message</button>
+                            </span>
+
+                            </div>
+
+                          </div>
+                        </section>
+                      
+
                     </section>
 
                    </main>
