@@ -109,7 +109,7 @@ export default function Home() {
         </main>
 
 
-             <div className='flex gap-20 place-content-center lg:flex  h-[9.88rem] bg-[#CCDBF0] items-center justify-center gap-12 '>
+             <div className='flex gap-20 place-content-center lg:flex  h-[9.88rem] bg-[#CCDBF0] items-center justify-center  '>
                     <img src={Zoom} alt="" />  <img src={Str} alt="" /> <img src={Mon} alt="" /> <img src={Drop} alt="" /> <img src={Sla} alt="" /> 
                    </div>
 
@@ -127,7 +127,8 @@ export default function Home() {
                           <button className='text-white bg-[#004DB3] capitalize rounded-[4px] px-8 py-4 mb-6 font-bold'>View Courses</button>
 
                           <div className='flex lg:w-3/4 gap-6 capitalize'>
-                            <span><img src={Frame1} alt="" />
+                            <span className='bg-white gap-3 flex items-center h-[4.5rem] px-6 pr-14'>
+                              <img src={Frame1} alt="" />
                             <p className='font-bold text-[#000F24]'>audio classes</p>
                             </span>
 
@@ -273,7 +274,7 @@ export default function Home() {
 
                             <span className='class="flex items-center gap-1"'>
 
-                              <img src={Cat7} alt="" className='class="lg:w-auto w-[20%]' />
+                              <img src={Cat7} alt="" className='class="lg:w-auto w-[60%]' />
 
                               <p className='text-black font-bold  lg:text-base text-[6px]'>Leonard Victor</p>
 
@@ -307,7 +308,7 @@ export default function Home() {
 
                             <span className='class="flex items-center gap-1"'>
 
-                              <img src={Cat7} alt="" className='class="lg:w-auto w-[20%]' />
+                              <img src={Cat7} alt="" className='class="lg:w-auto w-[60%]' />
 
                               <p className='text-black font-bold  lg:text-base text-[6px]'>Leonard Victor</p>
 
@@ -341,7 +342,7 @@ export default function Home() {
 
                             <span className='class="flex items-center gap-1"'>
 
-                              <img src={Cat7} alt="" className='class="lg:w-auto w-[20%]' />
+                              <img src={Cat7} alt="" className='class="lg:w-auto w-[60%]' />
 
                               <p className='text-black font-bold  lg:text-base text-[6px]'>Leonard Victor</p>
 
@@ -374,7 +375,7 @@ export default function Home() {
 
                             <span className='class="flex items-center gap-1"'>
 
-                              <img src={Cat7} alt="" className='class="lg:w-auto w-[20%]' />
+                              <img src={Cat7} alt="" className='class="lg:w-auto w-[60%]' />
 
                               <p className='text-black font-bold  lg:text-base text-[6px]'>Leonard Victor</p>
 
@@ -408,7 +409,7 @@ export default function Home() {
 
                             <span className='class="flex items-center gap-1"'>
 
-                              <img src={Cat7} alt="" className='class="lg:w-auto w-[20%]' />
+                              <img src={Cat7} alt="" className='class="lg:w-auto w-[60%]' />
 
                               <p className='text-black font-bold  lg:text-base text-[6px]'>Leonard Victor</p>
 
@@ -442,7 +443,7 @@ export default function Home() {
 
                             <span className='class="flex items-center gap-1"'>
 
-                              <img src={Cat7} alt="" className='class="lg:w-auto w-[20%]' />
+                              <img src={Cat7} alt="" className='class="lg:w-auto w-[60%]' />
 
                               <p className='text-black font-bold  lg:text-base text-[6px]'>Leonard Victor</p>
 
@@ -474,6 +475,84 @@ export default function Home() {
                           <p class="text-[#A1A1A1] font-medium lg:text-xs text-[8px] lg:leading-[26px] text-center lg:w-2/5 mb-16">high-defination video is video of higher resolution and quality than standard definition. while there’s no standard meaning for high definition, generally any standard video image</p>
                         
                         </div>
+
+
+
+
+
+
+                             <div className='grid lg:grid-cols-3 grid-cols-2 lg:gap-12 gap-2 mt-12'>
+
+                        <div className='lg:p-5 p-3 rounded-[16px] bg-white'>
+
+                        <p className='text-[#A1A1A1] lg:text-sm text-[10px] font-medium'>
+                                high-defination video is video of higher resolution and quality than standard definition. high-defination video is video of higher resolution and quality than standard definition. hbuild your future with our quality education. the best and largest all-in-one online tutoring platform in the worldd definition. high-defination video is video of higher resolution and quality than standard definition. build your future with our quality education. the best and largest all-in-one online tutoring platform in the world
+                                </p>
+
+                          <span className='flex items-center justify-between mt-8'>
+
+                            <span className='class="flex items-center gap-1"'>
+
+                              <img src={Cat7} alt="" className='class="lg:w-auto w-[40%]' />
+
+                              <p className='text-black font-bold  lg:text-base text-[6px]'>Leonard Victor</p>
+                              <p>Product Designer</p>
+                            </span>
+                          </span>
+
+                        </div>
+
+
+                        <div className='lg:p-5 p-3 rounded-[16px] bg-white'>
+
+                        <p className='text-[#A1A1A1] lg:text-sm text-[10px] font-medium'>
+                                high-defination video is video of higher resolution and quality than standard definition. high-defination video is video of higher resolution and quality than standard definition. hbuild your future with our quality education. the best and largest all-in-one online tutoring platform in the worldd definition. high-defination video is video of higher resolution and quality than standard definition. build your future with our quality education. the best and largest all-in-one online tutoring platform in the world
+                                </p>
+
+                          <span className='flex items-center justify-between mt-8'>
+
+                            <span className='class="flex items-center gap-1"'>
+
+                              <img src={Cat7} alt="" className='class="lg:w-auto w-[40%]' />
+
+                              <p className='text-black font-bold  lg:text-base text-[6px]'>Leonard Victor</p>
+                              <p>Product Designer</p>
+                            </span>
+                          </span>
+
+                        </div>
+
+
+                        <div className='lg:p-5 p-3 rounded-[16px] bg-white'>
+
+
+                               <p className='text-[#A1A1A1] lg:text-sm text-[10px] font-medium'>
+                                high-defination video is video of higher resolution and quality than standard definition. high-defination video is video of higher resolution and quality than standard definition. hbuild your future with our quality education. the best and largest all-in-one online tutoring platform in the worldd definition. high-defination video is video of higher resolution and quality than standard definition. build your future with our quality education. the best and largest all-in-one online tutoring platform in the world
+                                </p>
+
+                          <span className='flex items-center justify-between mt-8'>
+
+                            <span className='class="flex items-center gap-1"'>
+
+                              <img src={Cat7} alt="" className='class="lg:w-auto w-[40%]' />
+
+                              <p className='text-black font-bold  lg:text-base text-[6px]'>Leonard Victor</p>
+                              <p>Product Designer</p>
+
+                              
+                            </span>
+                          </span>
+
+                        </div>
+
+                        </div>
+
+
+                        
+
+
+
+                        
 
                         {/* <div className='react-multi-carousel-list carousel-container dir="ltr"'>
 
