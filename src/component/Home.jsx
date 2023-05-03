@@ -248,7 +248,7 @@ export default function Home() {
 
                       </div>
 
-                      <div className='grid lg:grid-cols-3  grid-cols-2 lg:gap-12 gap-2 mt-16'>
+                      <div className='grid lg:grid-cols-3 grid-cols-2 lg:gap-12 gap-2 mt-16'>
 
                         <div className='lg:p-5 p-3 rounded-[16px] bg-white'>
 
