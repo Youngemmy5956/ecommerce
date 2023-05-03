@@ -95,11 +95,11 @@ export default function Home() {
                  
                 </div>
 
-                {/* <div className='flex mx-auto mt-12'>
+                <div className='flex mx-auto mt-12'>
 
-                  <img src={Hero} alt="" className='lg:block hidden' />  <img src={Heros} alt="" className='lg:hidden block' />
+                  {/* <img src={Hero} alt="" className='lg:block hidden' />  <img src={Hero} alt="" className='' /> */}
 
-                </div> */}
+                </div>
 
               </div>
           </div>
@@ -453,10 +453,8 @@ export default function Home() {
 
                         </div>
 
-                        <button className='lg:block hidden text-white bg-white capitalize rounded-[4px] ml-72 py-4 mt-10 mb-6 font-bold'>
-                                   explore all courses
-
-                                   
+                        <button className='lg:block hidden text-white bg-white capitalize rounded-[4px] ml-72 py-4 mt-6 mb-6 font-bold'>
+                                   explore all courses         
                         </button>
 
                         <button className='text-white ml-60  bg-[#004DB3] rounded-[4px] lg:px-8 px-6 lg:py-4 py-3 lg:text-base text-[8px] mt-4 lg:mb-24 mb-12 font-bold capitalize'>explore all courses</button>
@@ -546,139 +544,6 @@ export default function Home() {
                         </div>
 
                         </div>
-
-
-                        
-
-
-
-                        
-
-                        {/* <div className='react-multi-carousel-list carousel-container dir="ltr"'>
-
-                          <ul className='react-multi-carousel-track '>
-
-                            <li className='react-multi-carousel-item  carousel-item-padding-40-px'>
-
-                              <div className='bg-white px-4 py-6 capitalize rounded-3xl'>
-
-                                <p className='text-[#A1A1A1] lg:text-sm text-[10px] font-medium'>
-                                high-defination video is video of higher resolution and quality than standard definition. high-defination video is video of higher resolution and quality than standard definition. hbuild your future with our quality education. the best and largest all-in-one online tutoring platform in the worldd definition. high-defination video is video of higher resolution and quality than standard definition. build your future with our quality education. the best and largest all-in-one online tutoring platform in the world
-                                </p>
-
-                                <span className='flex items-center gap-1 mt-5'>
-
-                                  <img src="" alt="" />
-
-                                  <span><p className="font-bold lg:text-sm text-[10px] text-black">bella moon</p></span>
-
-                                  <p className="text-[#A1A1A1] lg:text-xs text-[8px]">product designer</p>
-
-                                </span>
-
-                              </div>
-
-                            </li>
-
-                            <li className='react-multi-carousel-item  carousel-item-padding-40-px'>
-
-                              <div className='bg-white px-4 py-6 capitalize rounded-3xl'>
-
-                                <p className='text-[#A1A1A1] lg:text-sm text-[10px] font-medium'>
-                                high-defination video is video of higher resolution and quality than standard definition. high-defination video is video of higher resolution and quality than standard definition. hbuild your future with our quality education. the best and largest all-in-one online tutoring platform in the worldd definition. high-defination video is video of higher resolution and quality than standard definition. build your future with our quality education. the best and largest all-in-one online tutoring platform in the world
-                                </p>
-
-                                <span className='flex items-center gap-1 mt-5'>
-
-                                  <img src="" alt="" />
-
-                                  <span><p className="font-bold lg:text-sm text-[10px] text-black">bella moon</p></span>
-
-                                  <p className="text-[#A1A1A1] lg:text-xs text-[8px]">product designer</p>
-
-                                </span>
-
-                              </div>
-
-                            </li>
-
-                            <li className='react-multi-carousel-item  carousel-item-padding-40-px'>
-
-                              <div className='bg-white px-4 py-6 capitalize rounded-3xl'>
-
-                                <p className='text-[#A1A1A1] lg:text-sm text-[10px] font-medium'>
-                                high-defination video is video of higher resolution and quality than standard definition. high-defination video is video of higher resolution and quality than standard definition. hbuild your future with our quality education. the best and largest all-in-one online tutoring platform in the worldd definition. high-defination video is video of higher resolution and quality than standard definition. build your future with our quality education. the best and largest all-in-one online tutoring platform in the world
-                                </p>
-
-                                <span className='flex items-center gap-1 mt-5'>
-
-                                  <img src="" alt="" />
-
-                                  <span><p className="font-bold lg:text-sm text-[10px] text-black">bella moon</p></span>
-
-                                  <p className="text-[#A1A1A1] lg:text-xs text-[8px]">product designer</p>
-
-                                </span>
-
-                              </div>
-
-                            </li>
-
-                            <li className='react-multi-carousel-item  carousel-item-padding-40-px'>
-
-                              <div className='bg-white px-4 py-6 capitalize rounded-3xl'>
-
-                                <p className='text-[#A1A1A1] lg:text-sm text-[10px] font-medium'>
-                                high-defination video is video of higher resolution and quality than standard definition. high-defination video is video of higher resolution and quality than standard definition. hbuild your future with our quality education. the best and largest all-in-one online tutoring platform in the worldd definition. high-defination video is video of higher resolution and quality than standard definition. build your future with our quality education. the best and largest all-in-one online tutoring platform in the world
-                                </p>
-
-                                <span className='flex items-center gap-1 mt-5'>
-
-                                  <img src="" alt="" />
-
-                                  <span><p className="font-bold lg:text-sm text-[10px] text-black">bella moon</p></span>
-
-                                  <p className="text-[#A1A1A1] lg:text-xs text-[8px]">product designer</p>
-
-                                </span>
-
-                              </div>
-
-                            </li>
-
-                            <li className='react-multi-carousel-item  carousel-item-padding-40-px'>
-
-                              <div className='bg-white px-4 py-6 capitalize rounded-3xl'>
-
-                                <p className='text-[#A1A1A1] lg:text-sm text-[10px] font-medium'>
-                                high-defination video is video of higher resolution and quality than standard definition. high-defination video is video of higher resolution and quality than standard definition. hbuild your future with our quality education. the best and largest all-in-one online tutoring platform in the worldd definition. high-defination video is video of higher resolution and quality than standard definition. build your future with our quality education. the best and largest all-in-one online tutoring platform in the world
-                                </p>
-
-                                <span className='flex items-center gap-1 mt-5'>
-
-                                  <img src="" alt="" />
-
-                                  <span><p className="font-bold lg:text-sm text-[10px] text-black">bella moon</p></span>
-
-                                  <p className="text-[#A1A1A1] lg:text-xs text-[8px]">product designer</p>
-
-                                </span>
-
-                              </div>
-
-                            </li>
-
-
-
-
-
-
-
-                          </ul>
-
-                          
-                        </div> */}
-
 
                         <section className='bg-[#004DB3]'>
                           
