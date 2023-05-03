@@ -47,15 +47,15 @@ export default function Home() {
     {name:'Community', link: '/'},
   ]
   return (
-<div className=' shadow-md  w-full left-0 bg-blue-800' >
+<div className='shadow-md  w-full left-0 bg-blue-800' >
 
-        <div className='md:px-10 py-4 px-7 md:flex justify-between items-center'>
+        <div className='md:px-10 py-4 px-7 flex justify-between items-center sticky top-0 bg-blue-800 z-50'>
            <img src={Logo} alt="" className='mx-36' />
 
-           <nav className='sticky top-0 py-2 z-50'> 
-              <ul className='md:flex pl-9 md:pl-0 '>
+           <nav className='sticky top-0 py-2 z-50 '> 
+              <ul className='md:flex pl-9 md:pl-0 flex gap-4'>
                 {links.map(link =>
-                <li className='font-semibold my-7 md:my-0 md:ml-8 '>
+                <li className='font-semibold my-7 md:my-0 md:ml'>
                   <a href="/">{link.name}</a>
                   </li>
                   )}
@@ -88,20 +88,22 @@ export default function Home() {
                 </span>
 
                 <div className='flex items-center gap-2 lg:mx-0 mx-auto'>
-                  <img src={Map} alt="" className='lg:block hidden' />  
-                  <img src={Pro} alt="" className='lg:hidden block'/>
+                  <img src={Map} alt="" className='' />  
 
                   <p className='font-bold text-white flex flex-col lg:text-2xl text-[13.4px]'>255k</p>   <span className='font-medium text-white lg:text-base text-[8px]'>Previews</span>
                  
                 </div>
 
-                <div className='flex mx-auto mt-12'>
+              </div>
 
-                  {/* <img src={Hero} alt="" className='lg:block hidden' />  <img src={Hero} alt="" className='' /> */}
+
+
+              <div className=''>
+
+                  <img src={Hero} alt="" className='' /> 
 
                 </div>
 
-              </div>
           </div>
 
 
