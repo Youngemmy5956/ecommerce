@@ -10,8 +10,6 @@ import Mon from '../images/monday-24c35f7f (1).svg'
 import Sla from '../images/slack-11024e07.svg'
 import Str from '../images/stripe-5009e4c8.svg'
 import Zoom from '../images/zoom-ba3b3c3d.svg'
-import Pro from '../images/profilesm-28864e3b.svg'
-import Heros from '../images/herosm-5d2bc283.svg'
 import Frame1 from '../images/frame1-2382226c.svg'
 import Frame2 from '../images/frame2-e3588df0.svg'
 import Frame3 from '../images/frame3-59065990.svg'
@@ -47,13 +45,13 @@ export default function Home() {
     {name:'Community', link: '/'},
   ]
   return (
-<div className='shadow-md  w-full left-0 bg-blue-800' >
+<div className='shadow-md  w-full left-0 bg-blue-700' >
 
         <div className='md:px-10 py-4 px-7 flex justify-between items-center sticky top-0 bg-blue-800 z-50'>
            <img src={Logo} alt="" className='mx-36' />
 
            <nav className='sticky top-0 py-2 z-50 '> 
-              <ul className='md:flex pl-9 md:pl-0 flex gap-4'>
+              <ul className='md:flex pl-9 md:pl-0 flex gap-6'>
                 {links.map(link =>
                 <li className='font-semibold my-7 md:my-0 md:ml'>
                   <a href="/">{link.name}</a>
