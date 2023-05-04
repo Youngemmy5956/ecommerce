@@ -45,9 +45,9 @@ export default function Home() {
     {name:'Community', link: '/'},
   ]
   return (
-<div className='shadow-md  w-full left-0 bg-blue-700' >
+<div className='shadow-md  w-full left-0 bg-[#004DB3]' >
 
-        <div className='md:px-10 py-4 px-7 flex justify-between items-center sticky top-0 bg-blue-800 z-50'>
+        <div className='md:px-10 py-4 px-7 flex justify-between items-center sticky top-0 bg-[#004DB3] z-50'>
            <img src={Logo} alt="" className='mx-36' />
 
            <nav className='sticky top-0 py-2 z-50 '> 
@@ -58,7 +58,7 @@ export default function Home() {
                   </li>
                   )}
 
-                  <button className='btn bg-white text-blue-800 my-0 py-2 px-3 md:ml-8 rounded md-static mx-36'>Enroll Now</button>
+                  <button className='btn bg-white  my-0 py-2 px-3 md:ml-8 rounded md-static mx-36'>Enroll Now</button>
                 </ul> 
            </nav>
         </div>
