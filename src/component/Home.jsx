@@ -35,6 +35,9 @@ import Tw from '../images/twitter-4de28e62.svg'
 import You from '../images/youtube-069fe375.svg'
 import Inta from '../images/instagram-2f9fd7a8.svg'
 import Dis from '../images/discord-dc6ef389.svg'
+import {AiOutlineClockCircle} from 'react-icons/ai'
+import {FiBookOpen} from 'react-icons/fi'
+import {AiOutlineStar} from 'react-icons/ai'
 
 export default function Home() {
   let links = [
@@ -258,21 +261,21 @@ export default function Home() {
 
                             <button className='bg-[#1E5DCE33] text-[#1E5DCE] capitalize font-bold lg:text-xs text-[4px] lg:px-3 px-2 py-1 rounded-full'>Design</button>
 
-                            <p className='font-bold text-[#A1A1A1] lg:text-xs text-[4px] flex items-center'>4.7k   (32.7k)</p>
+                            <p className='font-bold text-[#A1A1A1] lg:text-xs text-[4px] flex items-center'>4.7k  <AiOutlineStar />  (32.7k)</p>
 
                           </span>
 
                           <h1 className='capitalize text-[#000F24] font-bold lg:text-2xl text-[8px] my-2'>introduction to user research in ux design</h1>
 
                           <span className='flex items-center justify-between'>
-                            <p className='text-[#A1A1A1] font-medium flex items-center gap-1 lg:text-base text-[4px]'>23hrs 50mins</p>
+                            <p className='text-[#A1A1A1] font-medium flex items-center gap-1 lg:text-base text-[4px]'> <AiOutlineClockCircle /> 23hrs 50mins</p>
 
-                            <p className='text-[#A1A1A1] font-medium flex items-center gap-1 lg:text-base text-[4px]'> lessons</p>
+                            <p className='text-[#A1A1A1] font-medium flex items-center gap-1 lg:text-base text-[4px]'> <FiBookOpen /> lessons</p>
                           </span>
 
                           <span className='flex items-center justify-between mt-8'>
 
-                            <span className='class="flex items-center gap-1"'>
+                            <span className='flex items-center gap-1"'>
 
                               <img src={Cat7} alt="" className='class="lg:w-auto w-[60%]' />
 
@@ -292,16 +295,16 @@ export default function Home() {
 
                             <button className='bg-[#1E5DCE33] text-[#1E5DCE] capitalize font-bold lg:text-xs text-[4px] lg:px-3 px-2 py-1 rounded-full'>Design</button>
 
-                            <p className='font-bold text-[#A1A1A1] lg:text-xs text-[4px] flex items-center'>4.7k   (32.7k)</p>
+                            <p className='font-bold text-[#A1A1A1] lg:text-xs text-[4px] flex items-center'>4.7k  <AiOutlineStar />  (32.7k)</p>
 
                           </span>
 
                           <h1 className='capitalize text-[#000F24] font-bold lg:text-2xl text-[8px] my-2'>introduction to user research in ux design</h1>
 
                           <span className='flex items-center justify-between'>
-                            <p className='text-[#A1A1A1] font-medium flex items-center gap-1 lg:text-base text-[4px]'>23hrs 50mins</p>
+                            <p className='text-[#A1A1A1] font-medium flex items-center gap-1 lg:text-base text-[4px]'><AiOutlineClockCircle /> 23hrs 50mins</p>
 
-                            <p className='text-[#A1A1A1] font-medium flex items-center gap-1 lg:text-base text-[4px]'> lessons</p>
+                            <p className='text-[#A1A1A1] font-medium flex items-center gap-1 lg:text-base text-[4px]'> <FiBookOpen /> lessons</p>
                           </span>
 
                           <span className='flex items-center justify-between mt-8'>
@@ -326,16 +329,16 @@ export default function Home() {
 
                             <button className='bg-[#1E5DCE33] text-[#1E5DCE] capitalize font-bold lg:text-xs text-[4px] lg:px-3 px-2 py-1 rounded-full'>Design</button>
 
-                            <p className='font-bold text-[#A1A1A1] lg:text-xs text-[4px] flex items-center'>4.7k   (32.7k)</p>
+                            <p className='font-bold text-[#A1A1A1] lg:text-xs text-[4px] flex items-center'>4.7k  <AiOutlineStar /> (32.7k)</p>
 
                           </span>
 
                           <h1 className='capitalize text-[#000F24] font-bold lg:text-2xl text-[8px] my-2'>introduction to user research in ux design</h1>
 
                           <span className='flex items-center justify-between'>
-                            <p className='text-[#A1A1A1] font-medium flex items-center gap-1 lg:text-base text-[4px]'>23hrs 50mins</p>
+                            <p className='text-[#A1A1A1] font-medium flex items-center gap-1 lg:text-base text-[4px]'><AiOutlineClockCircle /> 23hrs 50mins</p>
 
-                            <p className='text-[#A1A1A1] font-medium flex items-center gap-1 lg:text-base text-[4px]'> lessons</p>
+                            <p className='text-[#A1A1A1] font-medium flex items-center gap-1 lg:text-base text-[4px]'><FiBookOpen /> lessons</p>
                           </span>
 
                           <span className='flex items-center justify-between mt-8'>
@@ -360,15 +363,15 @@ export default function Home() {
 
                             <button className='bg-[#1E5DCE33] text-[#1E5DCE] capitalize font-bold lg:text-xs text-[4px] lg:px-3 px-2 py-1 rounded-full'>Design</button>
 
-                            <p className='font-bold text-[#A1A1A1] lg:text-xs text-[4px] flex items-center'>4.7k   (32.7k)</p>
+                            <p className='font-bold text-[#A1A1A1] lg:text-xs text-[4px] flex items-center'>4.7k   <AiOutlineStar /> (32.7k)</p>
                           </span>
 
                           <h1 className='capitalize text-[#000F24] font-bold lg:text-2xl text-[8px] my-2'>introduction to user research in ux design</h1>
 
                           <span className='flex items-center justify-between'>
-                            <p className='text-[#A1A1A1] font-medium flex items-center gap-1 lg:text-base text-[4px]'>23hrs 50mins</p>
+                            <p className='text-[#A1A1A1] font-medium flex items-center gap-1 lg:text-base text-[4px]'><AiOutlineClockCircle /> 23hrs 50mins</p>
 
-                            <p className='text-[#A1A1A1] font-medium flex items-center gap-1 lg:text-base text-[4px]'> lessons</p>
+                            <p className='text-[#A1A1A1] font-medium flex items-center gap-1 lg:text-base text-[4px]'> <FiBookOpen /> lessons</p>
                           </span>
 
                           <span className='flex items-center justify-between mt-8'>
@@ -393,16 +396,16 @@ export default function Home() {
 
                             <button className='bg-[#1E5DCE33] text-[#1E5DCE] capitalize font-bold lg:text-xs text-[4px] lg:px-3 px-2 py-1 rounded-full'>Design</button>
 
-                            <p className='font-bold text-[#A1A1A1] lg:text-xs text-[4px] flex items-center'>4.7k   (32.7k)</p>
+                            <p className='font-bold text-[#A1A1A1] lg:text-xs text-[4px] flex items-center'>4.7k <AiOutlineStar />   (32.7k)</p>
 
                           </span>
 
                           <h1 className='capitalize text-[#000F24] font-bold lg:text-2xl text-[8px] my-2'>introduction to user research in ux design</h1>
 
                           <span className='flex items-center justify-between'>
-                            <p className='text-[#A1A1A1] font-medium flex items-center gap-1 lg:text-base text-[4px]'>23hrs 50mins</p>
+                            <p className='text-[#A1A1A1] font-medium flex items-center gap-1 lg:text-base text-[4px]'><AiOutlineClockCircle /> 23hrs 50mins</p>
 
-                            <p className='text-[#A1A1A1] font-medium flex items-center gap-1 lg:text-base text-[4px]'> lessons</p>
+                            <p className='text-[#A1A1A1] font-medium flex items-center gap-1 lg:text-base text-[4px]'> <FiBookOpen /> lessons</p>
                           </span>
 
                           <span className='flex items-center justify-between mt-8'>
@@ -427,16 +430,16 @@ export default function Home() {
 
                             <button className='bg-[#1E5DCE33] text-[#1E5DCE] capitalize font-bold lg:text-xs text-[4px] lg:px-3 px-2 py-1 rounded-full'>Design </button>
 
-                            <p className='font-bold text-[#A1A1A1] lg:text-xs text-[4px] flex items-center'>4.7k   (32.7k)</p>
+                            <p className='font-bold text-[#A1A1A1] lg:text-xs text-[4px] flex items-center'>4.7k <AiOutlineStar />   (32.7k)</p>
 
                           </span>
 
                           <h1 className='capitalize text-[#000F24] font-bold lg:text-2xl text-[8px] my-2'>introduction to user research in ux design</h1>
 
                           <span className='flex items-center justify-between'>
-                            <p className='text-[#A1A1A1] font-medium flex items-center gap-1 lg:text-base text-[4px]'>23hrs 50mins</p>
+                            <p className='text-[#A1A1A1] font-medium flex items-center gap-1 lg:text-base text-[4px]'> <AiOutlineClockCircle /> 23hrs  50mins</p>
 
-                            <p className='text-[#A1A1A1] font-medium flex items-center gap-1 lg:text-base text-[4px]'> lessons</p>
+                            <p className='text-[#A1A1A1] font-medium flex items-center gap-1 lg:text-base text-[4px]'> <FiBookOpen /> lessons</p>
                           </span>
 
                           <span className='flex items-center justify-between mt-8'>
