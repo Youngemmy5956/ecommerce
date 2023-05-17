@@ -479,9 +479,6 @@ export default function Home() {
 
 
 
-
-
-
                              <div className='grid lg:grid-cols-3 grid-cols-2 lg:gap-12 gap-2 mt-12'>
 
                         <div className='lg:p-5 p-3 rounded-[16px] bg-white'>
@@ -696,9 +693,12 @@ export default function Home() {
 
                             <h1 className="font-semibold text-[32px] mb-8">subscribe us</h1>
 
-                            <span className="flex items-center"><input type="text" placeholder="nft123@gmail.com" class="h-12 px-4 bg-[#2A2A2B] outline-none lg:w-auto w-[60%]"/>
+                            <span className="flex items-center">
+                              
+                              <input type="text" placeholder="nft123@gmail.com" class="h-12 px-4 bg-[#2A2A2B] outline-none lg:w-auto w-[60%]"/>
 
                             <button class="bg-[#054FB3] text-white text-sm font-medium h-12 whitespace-pre px-4 capitalize">send message</button>
+                            
                             </span>
 
                             </div>
